@@ -1,6 +1,21 @@
+body{
+    margin: 0;
+    font-family: "Bellota", system-ui;
+    font-weight: 400;
+    font-style: italic;
+}
 .top{
     display: flex;
-    padding-left: 180px;
+    padding-left: 160px;
+}
+.pic-text{
+    padding-left: 10px;
+    padding-right: 50px;
+
+}
+.pic img{
+    width: 55%;
+    padding-left: 80px;
 }
 .focus{
     font-size: 50px;
@@ -8,6 +23,7 @@
     border-color: tomato;
     border-image-slice: 1;
     padding-left: 10px;
+    border-radius: 10px;
 }
 .orange{
     color: orange;
@@ -16,11 +32,9 @@
     text-decoration: none;
     color: white;
     font-weight: 700;
-    background-color: tomato;padding: 10px 40px;
+    background-color: tomato;
+    padding: 10px 40px;
     border-radius: 10px;
-}
-.pic img{
-    width: 45%;
 }
 .dark{
     color: rgb(0, 0, 40);
@@ -49,17 +63,58 @@
     margin-right: 40px;
 }
 .one img{
-    width: 10%;
+    width: 30%;
 }
 .two img{
-    width: 10%;
+    width: 30%;
 }
 .three img{
-    width: 10%;
+    width: 30%;
 }
 h3{
     font-size: 30px;
 }
 .top-1{
     display: flex;
+}
+.top-2{
+    display: flex;
+    padding-top: 80px;
+}
+.top-2 img{
+    width: 75%;
+    background-image: url(images/shapes/shape-1.png);
+}
+.coding{
+    padding-left: 250px;
+}
+.coding-text{
+    padding-right: 200px;
+}
+.project img{
+    width: 60%;
+    padding-left: 40px;
+}
+.project-text{
+    padding-left: 190px;
+}
+.top-3{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.footer-mission{
+    color: rgb(255, 255, 255);
+}
+.footer-year{
+    color: tomato;
+}
+.foot{
+    text-align: center;
+    background-color: rgb(12, 11, 19);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.foot-text{
+    color: white;
 }
