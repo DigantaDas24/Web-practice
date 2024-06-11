@@ -1,0 +1,65 @@
+.top{
+    display: flex;
+    padding-left: 180px;
+}
+.focus{
+    font-size: 50px;
+    border-left: 7px solid;
+    border-color: tomato;
+    border-image-slice: 1;
+    padding-left: 10px;
+}
+.orange{
+    color: orange;
+}
+.explore{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color: tomato;padding: 10px 40px;
+    border-radius: 10px;
+}
+.pic img{
+    width: 45%;
+}
+.dark{
+    color: rgb(0, 0, 40);
+}
+.center{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+}.one{
+    background-color: rgba(211, 255, 166, 0.681);
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 40px;
+}
+.two{
+    background-color: rgba(253, 153, 135, 0.415);
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.three{
+    background-color: rgba(255, 195, 85, 0.492);
+    border-radius: 20px;
+    padding: 20px;
+    margin-right: 40px;
+}
+.one img{
+    width: 10%;
+}
+.two img{
+    width: 10%;
+}
+.three img{
+    width: 10%;
+}
+h3{
+    font-size: 30px;
+}
+.top-1{
+    display: flex;
+}
