@@ -81,12 +81,9 @@ h3{
     display: flex;
     padding-top: 80px;
 }
-.top-2 img{
-    width: 75%;
-    background-image: url(images/shapes/shape-1.png);
-}
-.coding{
-    padding-left: 250px;
+.coding img{
+    padding-left: 200px;
+    width: 60%;
 }
 .coding-text{
     padding-right: 200px;
